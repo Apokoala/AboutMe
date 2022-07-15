@@ -1,0 +1,92 @@
+body{
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+    /* margin and padding are zero remove the defaults of the html */
+}
+
+ul{
+    color: #FFA71A;
+
+}
+
+
+header{
+    /* background-color: #FFA71A; */
+    height: 300px;
+    text-align: center;
+}
+header section{
+    background-color:#FFA71A;
+}
+h2{
+    color:#FFA71A;
+    text-align: center;
+
+}
+h1{
+    
+    /* float: left; */
+    text-align: center;
+    font-weight: 900;
+    font-size:80px;
+    /* margin-left: 90px; */
+    /* float were forcing it to the left and allowing everything
+    else to move around it */
+    color: #000000;
+}
+
+nav li{
+    display:inline-block;
+    /* margin-left: 70; */
+    /* text-align:center; */
+    /* margin-left: 250px; */
+}
+
+nav li a {
+    text-decoration:underline;
+    /* removes the default decoration for the links */
+    color:#FFA71A;
+    font-weight:900;
+    font-size:40px;
+    cursor:grab;
+    margin-left:80px;
+    text-align: center;
+
+    
+}
+
+nav li a:hover{
+    color:red;
+
+}
+
+main{
+    width: 960px;
+    margin: 0px auto;
+    min-height: 700px;
+    color:white;
+    /* text-align: ; */
+}
+
+/* #hero{ */
+ /* width: 800px; */
+ /* height: 500px; */
+/* sets height and width of the hero image */
+/* border: 4px solid #000000; */
+/* } */
+section{
+    /* text-align: left; */
+    border:#FFA71A;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+footer{
+    text-align: center;
+    background-color: #FFA71A;
+    height: 100px;
+    margin-top: 200;
+    margin-top: 40px;
+    padding-top: 10px;
+}
