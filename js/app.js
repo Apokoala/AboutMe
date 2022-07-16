@@ -51,10 +51,10 @@ function Question4(){
 Question4();
 function Question4(){
     let userinput = prompt ('Is Brandon Sanderson my favorite author?');
-    if (userinput.toUpperCase() === 'NO' || userinput.toUpperCase() === 'N'){
+    while (userinput.toUpperCase() === 'NO' || userinput.toUpperCase() === 'N'){
         console.log('Think again')
         alert('WROOOOOOONG!');
-        userinput = prompt('Is brandon sanderson my favorite author?');
+        userinput = prompt('Is Brandon Sanderson my favorite author?');
     } 
     console.log('Correct');
     alert('Correct');
