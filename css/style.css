@@ -1,5 +1,5 @@
 body{
-    background-color:#000000;
+    background-color:#e1d5d5;
     margin: 0;
     padding: 0;
     /* margin and padding are zero remove the defaults of the html */
@@ -33,7 +33,7 @@ h1{
     /* margin-left: 90px; */
     /* float were forcing it to the left and allowing everything
     else to move around it */
-    color: #000000;
+    color: #f0e3e3;
 }
 
 nav li{
