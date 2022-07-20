@@ -29,7 +29,7 @@ function Question3(){
     let userinput = prompt ('Is Golden Girls one of my favorite shows? (type yes or y or no or n)');
     if (userinput.toUpperCase() === 'NO' || userinput.toUpperCase() === 'N'){
         console.log('technically it is my bestest, most favoritist, show')
-        alert('Darn tootin');
+        alert('technically it is my bestest, most favoritist, show');
         userinput = prompt('Is Golden Girls one of my favorite shows? (type yes or y or no or n)');
     } 
     console.log('Correct');
@@ -61,5 +61,42 @@ function Question4(){
 }
 
 let firstName = prompt ('Give me your name!');
-// console.log(document.getElementById("firstName"));
-document.getElementById("firstName").innerHTML = 'Hello, ' +firstName+ ', welcome to my page'
+// // console.log(document.getElementById("firstName"));
+// document.getElementById("firstName").innerHTML = 'Hello, ' +firstName+ ', welcome to my page'
+
+window.alert ('Hello ' +firstName+ ', Here is a quick number game!')
+
+
+GuessingGame();
+function GuessingGame(){
+    for (let i = 3; i >= 0; i--){
+     let userInput = prompt ('Guess a number between 1 and 10');
+     let answerMe = 7;
+        if (userInput == answerMe){
+                console.log ('Correct');
+                alert('Perfect!~');
+                break;
+        }
+            else if (i < 0){
+                alert ('No more attempts bruv...')
+         }
+            else if (userInput < answerMe) {
+                console.log ('This is not the number');
+                alert('Too Low, you have '+(i)+ ' guesses left!');   
+        }   
+            else if (userInput > answerMe) {
+                console.log ('This is not the number');
+                alert('Too High, you have '+(i)+ ' guesses left!');
+         }   
+            else {
+                alert('Not valid, you have '+(i)+ ' guesses left!');
+        }
+    }
+}
+    // console.log ('This is not the number');
+    // alert ('Wrong, you have ' +(attempt--)+ ' guesses left!' );
+    // userInput = prompt ('Guess a number between 1 and 10');
+    
+    // console.log ('Correct');
+    // alert ('Nailed it!!')
+    // break
