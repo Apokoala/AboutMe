@@ -58,8 +58,8 @@ function Question4(){
   
 }
 
-Question4();
-function Question4(){
+Question5();
+function Question5(){
     let userinput = prompt ('Is Brandon Sanderson my favorite author?');
     while (userinput.toUpperCase() === 'NO' || userinput.toUpperCase() === 'N'){
         console.log('Think again')
@@ -111,26 +111,20 @@ function GuessingGame(){
 // let score = 0;
 
 function fourtyTwoForYou (){
-    let attmeptsGiven  = 4;
-  for (let i  = 3; i < attmeptsGiven; i--) {
-    let response = prompt('please guess the number of about all things in the universe and everything');
-    let favoriteNumber = '42';
+    // let attmeptsGiven  = 4;
+  for (let i  = 3; i >= 0; i--) {
+    let response = prompt('Please guess the number about all things in the universe and everything.');
+    let favoriteNumber = 42;
 
-    if (response === favoriteNumber) {
-      alert ('Now there is a man who knows where his towel is!');
-      coount++;
+    if (response == favoriteNumber) {
+      alert ('Now there is a person who knows where their towel is!');
+      cooount++;
       return;
     } else if (response > favoriteNumber) {
       alert('Don\'t Panic: Too High');
     } else if (response < favoriteNumber) {
       alert('Don\'t Panic: Too Low');
-    } else {
-      alert('WHAT YOU TALKING ABOUT, WILLIS?');
-    }
-
-    if(i === 0){
-      alert('Thanks for playing, my favorite number is 42');
-    }s
+    }//s
   }
 }
 
